@@ -20,7 +20,7 @@ else {
         throw console.error('Project name is invalid.\nProject name cannot contain \'-\' or \'_\'');
     }
     renameProject(projectName);
-    console.log(`project ${projectName} renamed!`);
+    //console.log(`project ${projectName} renamed!`);
     // console.log(`preparing rn-nodeify...`);
     // execSync("npm run rn-nodeify");
     // console.log(`installing pods...`);
