@@ -78,7 +78,7 @@ function renameProject(projectName) {
             .replace(/SyloConnectedAppTemplate/g, projectName.toLowerCase());
        
         if (relativeFilePath !== relativeRenamedPath && (fileName.match(/SyloConnectedAppTemplate/g) || fileName.match(/SyloConnectedAppTemplate/g))){
-            console.log(`rename path:  ${relativeRenamedPath}`);
+            //console.log(`rename path:  ${relativeRenamedPath}`);
             if(fs.existsSync(relativeRenamedPath)){
                 throw console.error(`Cannot rename project to \'${projectName}\', project already existed`);
             }
