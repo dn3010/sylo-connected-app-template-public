@@ -21,12 +21,12 @@ else {
     }
     renameProject(projectName);
     console.log(`project ${projectName} renamed!`);
-    console.log(`preparing rn-nodeify...`);
-    execSync("npm run rn-nodeify");
-    console.log(`installing pods...`);
-    execSync("npm run podinstall");
-    console.log(`fixing modules...`);
-    execSync(`${__dirname}/fix-modules`);
+    // console.log(`preparing rn-nodeify...`);
+    // execSync("npm run rn-nodeify");
+    // console.log(`installing pods...`);
+    // execSync("npm run podinstall");
+    // console.log(`fixing modules...`);
+    // execSync(`${__dirname}/fix-modules`);
 }
 
 function isValidProjectName(projectName) {
@@ -74,10 +74,10 @@ function renameProject(projectName) {
         var relativeFilePath = path.relative(rootPath, absoluteSrcFilePath);
         const extension = path.extname(relativeFilePath);
         const relativeRenamedPath = dotFilePath(relativeFilePath)
-            .replace(/SyloAppTemplate/g, projectName)
-            .replace(/syloapptemplate/g, projectName.toLowerCase());
+            .replace(/SyloConnectedAppTemplate/g, projectName)
+            .replace(/SyloConnectedAppTemplate/g, projectName.toLowerCase());
        
-        if (relativeFilePath !== relativeRenamedPath && (fileName.match(/SyloAppTemplate/g) || fileName.match(/syloapptemplate/g))){
+        if (relativeFilePath !== relativeRenamedPath && (fileName.match(/SyloConnectedAppTemplate/g) || fileName.match(/SyloConnectedAppTemplate/g))){
             console.log(`rename path:  ${relativeRenamedPath}`);
             if(fs.existsSync(relativeRenamedPath)){
                 throw console.error(`Cannot rename project to \'${projectName}\', project already existed`);
@@ -96,8 +96,8 @@ function renameProject(projectName) {
 
          //replace file content
         let replacements = {
-            SyloAppTemplate: projectName,
-            syloapptemplate: projectName.toLowerCase(),
+            SyloConnectedAppTemplate: projectName,
+            SyloConnectedAppTemplate: projectName.toLowerCase(),
         };
 
         if (relativeRenamedPath && !isDirectory && binaryExtensions.indexOf(extension) === -1) {
