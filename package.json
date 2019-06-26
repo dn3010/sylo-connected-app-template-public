@@ -6,7 +6,7 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "rename": "node ./scripts/renameProject.js",
-    "podinstall": "pod install --project-directory=ios"
+    "podinstall": "./scripts/podinstall"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.4.0",
