@@ -138,6 +138,16 @@ android {
 }
 
 dependencies {
+    implementation project(':@react-native-community_async-storage')
+    implementation project(':lottie-react-native')
+    implementation project(':react-native-webrtc')
+    implementation project(':react-native-sodium')
+    implementation project(':react-native-keychain')
+    implementation project(':react-native-randombytes')
+    implementation project(':react-native-reanimated')
+    implementation project(':react-native-svg')
+    implementation project(':react-native-camera')
+    implementation project(':react-native-vector-icons')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     implementation "com.facebook.react:react-native:+"  // From node_modules
