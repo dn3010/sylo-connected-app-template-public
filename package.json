@@ -9,26 +9,28 @@
     "podinstall": "./scripts/podinstall"
   },
   "dependencies": {
-    "@react-native-community/async-storage": "^1.4.0",
-    "lottie-react-native": "^2.6.0",
-    "react": "16.8.3",
-    "react-native": "0.59.9",
-    "react-native-camera": "^1.10.1",
+    "@react-native-community/async-storage": "^1.6.1",
+    "lottie-react-native": "3.1.1",
+    "react": "^16.9.0",
+    "react-native": "^0.61.2",
+    "react-native-camera": "^3.0.0",
     "react-native-keychain": "github:dn3010/react-native-keychain#1032082e42a33d9d67f538afe6e4cdffb1b6a512",
     "react-native-randombytes": "^3.2.0",
-    "react-native-reanimated": "^1.0.0-alpha.12",
+    "react-native-reanimated": "^1.1.0",
     "react-native-sodium": "github:dn3010/react-native-sodium#62c904517476b0fdfdecaf445a557da239b50940",
     "react-native-svg": "^9.4.0",
-    "react-native-vector-icons": "^6.2.0",
-    "react-native-webrtc": "github:dn3010/react-native-webrtc#eade01a9d8e1d0a74dc62460691c7aae01897f23"
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-webrtc": "github:dn3010/react-native-webrtc#d036caca31dc281d51bdeb07d55895db94653058"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/runtime": "^7.4.5",
-    "babel-jest": "^24.8.0",
-    "jest": "^24.8.0",
-    "metro-react-native-babel-preset": "^0.54.1",
-    "react-test-renderer": "16.8.3"
+    "@babel/core": "^7.6.4",
+    "@babel/runtime": "^7.6.3",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.9.0"
   },
   "jest": {
     "preset": "react-native"
