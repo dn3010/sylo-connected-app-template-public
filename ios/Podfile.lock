@@ -194,6 +194,10 @@ PODS:
     - React
   - react-native-camera/RN (3.8.0):
     - React
+  - react-native-randombytes (3.5.3):
+    - React
+  - react-native-sodium (0.3.4):
+    - React
   - React-RCTActionSheet (0.61.2):
     - React-Core/RCTActionSheetHeaders (= 0.61.2)
   - React-RCTAnimation (0.61.2):
@@ -260,6 +264,8 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - react-native-camera (from `../node_modules/react-native-camera`)
+  - react-native-randombytes (from `../node_modules/react-native-randombytes`)
+  - react-native-sodium (from `../node_modules/react-native-sodium`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
   - React-RCTBlob (from `../node_modules/react-native/Libraries/Blob`)
@@ -279,7 +285,7 @@ DEPENDENCIES:
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - boost-for-react-native
     - lottie-ios
 
@@ -316,6 +322,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   react-native-camera:
     :path: "../node_modules/react-native-camera"
+  react-native-randombytes:
+    :path: "../node_modules/react-native-randombytes"
+  react-native-sodium:
+    :path: "../node_modules/react-native-sodium"
   React-RCTActionSheet:
     :path: "../node_modules/react-native/Libraries/ActionSheetIOS"
   React-RCTAnimation:
@@ -357,7 +367,7 @@ SPEC CHECKSUMS:
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
   lottie-ios: c38c3178ae8c4a8f200661aa5f80b9f1ca7f56b3
-  lottie-react-native: 8aec05edf717f658bf21bc8db9ffccbfb2a6c6ab
+  lottie-react-native: d8caf2aa9ab8bb76312e44997c1c91804a23d44d
   RCTRequired: c639d59ed389cfb1f1203f65c2ea946d8ec586e2
   RCTTypeSafety: dc23fb655d6c77667c78e327bf661bc11e3b8aec
   React: 7e586e5d7bec12b91c1a096826b0fc9ab1da7865
@@ -368,6 +378,8 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 8909917ff7d8f21a57e443a866fd8d4560e50c65
   React-jsinspector: 111d7d342b07a904c400592e02a2b958f1098b60
   react-native-camera: 3e52a28e4f437b566302e574bed0f77eeab3f737
+  react-native-randombytes: 991545e6eaaf700b4ee384c291ef3d572e0b2ca8
+  react-native-sodium: 5c31ed7354811c90ebf233ee785740945086ae5f
   React-RCTActionSheet: 89b037c0fb7d2671607cb645760164e7e0c013f6
   React-RCTAnimation: e3cefa93c38c004c318f7ec04b883eb14b8b8235
   React-RCTBlob: d26ac0e313fbf14e7203473fd593ccaaeee8329e
@@ -385,6 +397,6 @@ SPEC CHECKSUMS:
   RNVectorIcons: 0bb4def82230be1333ddaeee9fcba45f0b288ed4
   Yoga: 14927e37bd25376d216b150ab2a561773d57911f
 
-PODFILE CHECKSUM: b1d552c14e628fee287730a5b44861a0eb16dddc
+PODFILE CHECKSUM: debfb3e1e59dc3e752aaedaef7c53764477cc878
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.8.4
