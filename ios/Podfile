@@ -42,6 +42,8 @@ target 'SyloConnectedAppTemplate' do
   
   pod 'lottie-react-native', :path => '../node_modules/lottie-react-native'
   pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+  pod 'react-native-sodium', :path => '../node_modules/react-native-sodium'
+  pod 'react-native-randombytes', :path => '../node_modules/react-native-randombytes'
 
   target 'SyloConnectedAppTemplateTests' do
     inherit! :search_paths
