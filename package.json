@@ -11,8 +11,8 @@
   "dependencies": {
     "@react-native-community/async-storage": "^1.6.1",
     "lottie-react-native": "3.1.1",
-    "react": "^16.9.0",
-    "react-native": "^0.61.2",
+    "react": "^16.11.0",
+    "react-native": "^0.62.0",
     "react-native-camera": "^3.0.0",
     "react-native-keychain": "github:dn3010/react-native-keychain#1032082e42a33d9d67f538afe6e4cdffb1b6a512",
     "react-native-randombytes": "3.5.3",
