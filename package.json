@@ -1,6 +1,6 @@
 {
   "name": "SyloConnectedAppTemplate",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
@@ -20,7 +20,8 @@
     "react-native-sodium": "github:dn3010/react-native-sodium#62c904517476b0fdfdecaf445a557da239b50940",
     "react-native-svg": "^9.4.0",
     "react-native-vector-icons": "^6.6.0",
-    "react-native-webrtc": "github:dn3010/react-native-webrtc#d036caca31dc281d51bdeb07d55895db94653058"
+    "react-native-webrtc": "github:dn3010/react-native-webrtc#e3563e2f3e1ff13a337306e392e4aba270d79c12",
+    "hermes-engine": "^0.4.1"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
